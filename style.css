@@ -38,9 +38,7 @@ header{
     padding: 0 50px;
     color: var(--texto-claro);
     box-shadow: 0 4px 12px rgba(27, 42, 74, 0.15);
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+    position: fixed;
 }
 #nome-logo{
     font-weight: 900;
@@ -108,6 +106,8 @@ p{
 
 .foto-livro{
     max-width: 15vw;
+    width: 250px;
+    height: 280px;
 }
 .grade-livros{
   
@@ -147,7 +147,7 @@ p{
     
 }
 .info-livro{
-    
+    justify-content: end;
 }
 .categoria-livro{
     font-size: 16px;
@@ -188,5 +188,22 @@ p{
 .todos-passos{
     display: flex;
     justify-content: center;
+    max-width: 85vw;
+    margin: 0 auto;
+    text-align: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0 auto;
 }
+.passo{
+    width: 25vw;
+    padding: 20px;
+    
+}
+
+  
+
+
+
 
